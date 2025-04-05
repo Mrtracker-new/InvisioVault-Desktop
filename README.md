@@ -37,8 +37,8 @@ InvisioVault is a professional steganography application that securely hides var
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/InvisioVault.git
-cd InvisioVault
+git clone https://github.com/Mrtracker-new/InvisioVault-Desktop.git
+cd InvisioVault-Desktop
 pip install -r requirements.txt
 python build.bat
 ```
