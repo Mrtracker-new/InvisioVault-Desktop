@@ -73,7 +73,7 @@
 ## 🚀 Installation
 
 ### Quick Start (Prebuilt Executable)
-1. Download the latest release from the [Releases page]
+1. Download the latest release from the [Releases page](https://github.com/Mrtracker-new/InvisioVault-Desktop/releases)
 2. Double-click `InvisioVault.exe` from the `dist` folder
 3. No installation required - runs immediately!
 
