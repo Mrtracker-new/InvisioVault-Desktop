@@ -1,0 +1,7 @@
+# Core dependencies
+Pillow>=9.0.0  # For image processing
+pycryptodome>=3.15.0  # For encryption/decryption
+PyQt5>=5.15.6  # For GUI
+numpy>=1.22.0  # For array operations
+tqdm>=4.62.3  # For progress bars
+pyinstaller>=5.0.0  # For creating executable
