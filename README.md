@@ -37,8 +37,8 @@ InvisioVault is a professional steganography application that securely hides var
 
 ### From Source
 ```bash
-git clone https://github.com/Mrtracker-new/InvisioVault-Desktop.git
-cd InvisioVault-Desktop
+git clone https://github.com/yourusername/InvisioVault.git
+cd InvisioVault
 pip install -r requirements.txt
 python build.bat
 ```
@@ -57,12 +57,35 @@ python build.bat
 - Python 3.8 or higher
 - Required Python packages (see requirements.txt)
 
-## 📸 Screenshots
-![Welcome Screen](./screenshots/First_page.png "Application Welcome Screen")
-![File Hiding Interface](./screenshots/Hide_files.png "File Hiding Process")
-![File Extraction](./screenshots/Extract_files.png "Secure File Extraction")
-![Operation History](./screenshots/History.png "User Activity Logging")
-![About Section](./screenshots/About.png "Application Information & Disclaimer")
+## 🖼️ Visual Walkthrough
+
+### Core Workflow
+<div align="center">
+  <img src="./screenshots/First_page.png" width="30%" alt="Welcome Interface">
+  <img src="./screenshots/Hide_files.png" width="30%" alt="File Hiding">
+  <img src="./screenshots/Extract_files.png" width="30%" alt="File Extraction">
+</div>
+
+**1. Welcome Screen**  
+Start page with quick access to recent vaults and new operations
+
+**2. File Protection**  
+Secure file selection with live encryption status indicators
+
+**3. Data Recovery**  
+Password-protected extraction interface with integrity checks
+
+### Security Features
+<div align="center">
+  <img src="./screenshots/History.png" width="45%" alt="Audit Logs">
+  <img src="./screenshots/Disclaimer.png" width="45%" alt="Security Disclaimer">
+</div>
+
+**Operation History**  
+Complete audit trail with timestamps and checksums  
+
+**Security Guidelines**  
+Built-in best practices reminder during critical operations
 
 ## Usage
 
