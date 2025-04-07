@@ -62,6 +62,7 @@ def build_executable():
     # Run PyInstaller
     # Use absolute paths and handle Python executable
     invisivault_path = os.path.abspath('invisiovault.py')
+    version_file = os.path.abspath('version_info.txt')
     cmd = [
         sys.executable,
         '-m',
@@ -70,6 +71,7 @@ def build_executable():
         '--noconsole',
         '--name', 'InvisioVault',
         '--icon', 'InvisioVault.ico',
+        '--version-file', version_file,
         invisivault_path
     ]
     
@@ -83,6 +85,7 @@ def build_executable():
             '--noconsole',
             '--name', 'InvisioVault',
             '--icon', os.path.abspath('InvisioVault.ico'),
+            '--version-file', os.path.abspath('version_info.txt'),
             '--add-data', f'{os.path.abspath("history.json")};.',
             '--hidden-import', 'PyQt5.QtCore',
             '--hidden-import', 'PyQt5.QtGui',
